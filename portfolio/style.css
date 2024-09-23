@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: burlywood;
+    font-size: large;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    right: 20px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgb(235, 239, 214);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 237, 236);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #c8b5b5;
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    text-decoration: none;
+}
+
+.foot {
+    color: #fbf9f9;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+
+    margin: 5px 15px;
+    list-style: none;
+}
+
+button {
+    border: 2px solid rgb(211, 214, 209);
+    border-radius: 5px;
+    background-color: rgb(107, 37, 37);
+    height: 50px;
+    width: 150px;
+    color: rgb(233, 9, 9);
+    font-size: larger;
+    font-weight: 200;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+ 
+footer a {
+    text-decoration: none;
+    color: azure;
+
+
+}
+
+a:hover {
+    transform: scale(1.05);
+    color: #d40e0e;
+}
+
+.project a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 200;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.9s;
+
+}
+
+button:hover {
+    color: rgb(221, 227, 227);
+    background-color: #1b1d11;
+    transform: scale(1.05);
+}
